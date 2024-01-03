@@ -1,0 +1,24 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                 Test Method: 'TestPackage.Authorization.login'                                                 
+                                           Test Description: 'Login with valid username and password'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @03-01-2024 16:16:48.0490 PM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @03-01-2024 16:16:48.0507 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code 200 against the expected one 200. @03-01-2024 16:16:48.0508 PM
+[ReportManager] Request details:  "POST | Target Status Code: 200 | Service URL: https://testfawrybrokerageapi.eg-insurtech.com/api/Authenticate/login | Content Type: application/json | Response Time: 1348ms". @03-01-2024 16:16:49.0227 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @03-01-2024 16:16:49.0230 PM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @03-01-2024 16:16:49.0417 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @03-01-2024 16:16:49.0419 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "JsonSchemes/login.json"". @03-01-2024 16:16:49.0421 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "JsonSchemes/login.json"". @03-01-2024 16:16:49.0422 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "JsonSchemes/login.json"". @03-01-2024 16:16:49.0422 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "C:\Users\Hossam.AbdelFattah\IdeaProjects\BMS-API-AUT\JsonSchemes\login.json"". @03-01-2024 16:16:50.0053 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "C:\Users\Hossam.AbdelFattah\IdeaProjects\BMS-API-AUT\JsonSchemes\login.json"". @03-01-2024 16:16:50.0053 PM
+[ReportManager] File Action "ReadFile" successfully performed. With the following test data "File Path: "C:\Users\Hossam.AbdelFattah\IdeaProjects\BMS-API-AUT\JsonSchemes\login.json"". @03-01-2024 16:16:50.0054 PM
+[ReportManager] Assertion "ValidateResponseFileSchema" PASSED. Expected "Response data should match the JSON File in this path 'C:\Users\Hossam.AbdelFattah\IdeaProjects\BMS-API-AUT\JsonSchemes\login.json'" and Actual "TRUE". Comparison Type "EQUALS". Validation Type "POSITIVE". @03-01-2024 16:16:50.0055 PM
+[ReportManager] Assertion Passed: The API response schema matches that in this file "JsonSchemes/login.json". @03-01-2024 16:16:50.0056 PM
+[ReportManager] Successfully created attachment 'Validation Test Data - Expected JSON Value' @03-01-2024 16:16:50.0058 PM
+[ReportManager] Successfully created attachment 'Validation Test Data - Actual JSON Value' @03-01-2024 16:16:50.0061 PM

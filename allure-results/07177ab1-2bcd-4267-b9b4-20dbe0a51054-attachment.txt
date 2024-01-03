@@ -1,0 +1,115 @@
+[INFO ] 2024-01-03 16:16:44.573 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-03 16:16:44.584 [main] ReportManager - Checking for engine updates...
+[INFO ] 2024-01-03 16:16:44.605 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-01-03 16:16:44.956 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2024-01-03 16:16:44.957 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-01-03 16:16:45.048 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-01-03 16:16:45.405 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-01-03 16:16:45.422 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-01-03 16:16:45.572 [main] Utils - [TestNG] Running:
+  C:\Users\Hossam.AbdelFattah\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+[INFO ] 2024-01-03 16:16:45.598 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-03 16:16:45.721 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-01-03 16:16:45.728 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-01-03 16:16:45.871 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                 Test Method: 'TestPackage.Authorization.login'                                                 
+                                           Test Description: 'Login with valid username and password'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-01-03 16:16:47.453 [main] BasicClientConnectionManager - Get connection for route {s}->https://testfawrybrokerageapi.eg-insurtech.com:443
+[DEBUG] 2024-01-03 16:16:47.463 [main] DefaultClientConnectionOperator - Connecting to testfawrybrokerageapi.eg-insurtech.com:443
+[DEBUG] 2024-01-03 16:16:48.277 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-01-03 16:16:48.278 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-01-03 16:16:48.278 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-01-03 16:16:48.279 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-01-03 16:16:48.279 [main] DefaultClientConnection - Sending request: POST /api/Authenticate/login HTTP/1.1
+[DEBUG] 2024-01-03 16:16:48.279 [main] wire -  >> "POST /api/Authenticate/login HTTP/1.1[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.279 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.280 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.280 [main] wire -  >> "Content-Length: 48[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.280 [main] wire -  >> "Host: testfawrybrokerageapi.eg-insurtech.com[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.280 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.280 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.280 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.280 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.280 [main] headers - >> POST /api/Authenticate/login HTTP/1.1
+[DEBUG] 2024-01-03 16:16:48.280 [main] headers - >> Accept: */*
+[DEBUG] 2024-01-03 16:16:48.280 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-01-03 16:16:48.280 [main] headers - >> Content-Length: 48
+[DEBUG] 2024-01-03 16:16:48.280 [main] headers - >> Host: testfawrybrokerageapi.eg-insurtech.com
+[DEBUG] 2024-01-03 16:16:48.280 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-01-03 16:16:48.280 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+[DEBUG] 2024-01-03 16:16:48.280 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-01-03 16:16:48.280 [main] wire -  >> "{"Username":"01120112011","Password":"P@ssw0rd"}"
+[DEBUG] 2024-01-03 16:16:48.445 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.448 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.448 [main] wire -  << "Server: Microsoft-IIS/10.0[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.448 [main] wire -  << "X-Powered-By: ASP.NET[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.448 [main] wire -  << "Date: Wed, 03 Jan 2024 14:16:36 GMT[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.448 [main] wire -  << "Content-Length: 671[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.448 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-01-03 16:16:48.449 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-01-03 16:16:48.449 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-01-03 16:16:48.449 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-01-03 16:16:48.449 [main] headers - << Server: Microsoft-IIS/10.0
+[DEBUG] 2024-01-03 16:16:48.449 [main] headers - << X-Powered-By: ASP.NET
+[DEBUG] 2024-01-03 16:16:48.449 [main] headers - << Date: Wed, 03 Jan 2024 14:16:36 GMT
+[DEBUG] 2024-01-03 16:16:48.449 [main] headers - << Content-Length: 671
+[DEBUG] 2024-01-03 16:16:48.457 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-01-03 16:16:48.457 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2024-01-03 16:16:48.490 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-01-03 16:16:48.507 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2024-01-03 16:16:48.538 [main] wire -  << "{"token":"eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwidHlwIjoiSldUIn0..KBM7368kBvZsaCiRJFlbJA.CV27rquD0-yCoc5UZ0FN90JY2hc8xBosKFKYMQLCFvCVOJ1EuT-GkwgslVrlHG4n6yCQD-uaEUotVMimPJuWP6PYs5oTSWPfP6rEtxEJKP52cn1lWcB7MFQKDC215SfUF6z4z_En6fktuBIW-uFEPqQ_llYPyfzSiAMBm3WrewN34VOb0Y3Chdwv1oBfZ1GLqmAZMAOcEDBWgcTNj-8yjhQ9c1B8KzRjVCPtMDeIlf2Ldgzs6WpCebaemBUAY3MMwdUmUUfWg8MxduPW3GKsGierbeB9IiXXO23nR22LuOuWrIJkW5pn3i4l3phkl2mBphilEA5xY2iSgr5yI4tUniUPbJa1U1PLE9HeVVmNiD6cuyM6muRfLHqhQ2TjnXxASHg239a1tsdf4MhZ2q5Ki2U_MXgzybeNDywVcTX_AWymLWz3MducTKtHyJWbbKWOUUnMFnvdI-_RMUVNfDgjaC35X57QiPhjUgIYq8AOEk8.U1TI6S6Xubh4BEsyTnK6ncx56ppl0qbuyvWq1yvy0jg","expiration":"2024-02-02T14:16:36Z"}"
+[DEBUG] 2024-01-03 16:16:48.540 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1c023dcb
+[DEBUG] 2024-01-03 16:16:48.540 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-01-03 16:16:49.230 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[DEBUG] 2024-01-03 16:16:49.263 [main] cache - Couldn't find template in cache for "codeblock.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-03 16:16:49.264 [main] cache - TemplateLoader.findTemplateSource("codeblock_en_US.ftl"): Not found
+[DEBUG] 2024-01-03 16:16:49.265 [main] cache - TemplateLoader.findTemplateSource("codeblock_en.ftl"): Not found
+[DEBUG] 2024-01-03 16:16:49.266 [main] cache - TemplateLoader.findTemplateSource("codeblock.ftl"): Found
+[DEBUG] 2024-01-03 16:16:49.266 [main] cache - Loading template for "codeblock.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Hossam.AbdelFattah/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.ftl"
+[DEBUG] 2024-01-03 16:16:49.389 [main] cache - Couldn't find template in cache for "codeblock.json.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-03 16:16:49.390 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en_US.ftl"): Not found
+[DEBUG] 2024-01-03 16:16:49.390 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en.ftl"): Not found
+[DEBUG] 2024-01-03 16:16:49.390 [main] cache - TemplateLoader.findTemplateSource("codeblock.json.ftl"): Found
+[DEBUG] 2024-01-03 16:16:49.390 [main] cache - Loading template for "codeblock.json.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Hossam.AbdelFattah/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.json.ftl"
+[INFO ] 2024-01-03 16:16:49.417 [main] ReportManager - Successfully created attachment 'API Request - JSON Body'
+[INFO ] 2024-01-03 16:16:49.419 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[INFO ] 2024-01-03 16:16:49.421 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "JsonSchemes/login.json"".
+[INFO ] 2024-01-03 16:16:49.422 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "JsonSchemes/login.json"".
+[INFO ] 2024-01-03 16:16:49.422 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "JsonSchemes/login.json"".
+[INFO ] 2024-01-03 16:16:50.053 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "C:\Users\Hossam.AbdelFattah\IdeaProjects\BMS-API-AUT\JsonSchemes\login.json"".
+[INFO ] 2024-01-03 16:16:50.053 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "C:\Users\Hossam.AbdelFattah\IdeaProjects\BMS-API-AUT\JsonSchemes\login.json"".
+[INFO ] 2024-01-03 16:16:50.054 [main] ReportManager - File Action "ReadFile" successfully performed. With the following test data "File Path: "C:\Users\Hossam.AbdelFattah\IdeaProjects\BMS-API-AUT\JsonSchemes\login.json"".
+[INFO ] 2024-01-03 16:16:50.055 [main] ReportManager - Assertion "ValidateResponseFileSchema" PASSED. Expected "Response data should match the JSON File in this path 'C:\Users\Hossam.AbdelFattah\IdeaProjects\BMS-API-AUT\JsonSchemes\login.json'" and Actual "TRUE". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-01-03 16:16:50.058 [main] ReportManager - Successfully created attachment 'Validation Test Data - Expected JSON Value'
+[INFO ] 2024-01-03 16:16:50.061 [main] ReportManager - Successfully created attachment 'Validation Test Data - Actual JSON Value'
+[INFO ] 2024-01-03 16:16:50.083 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: login'
+[INFO ] 2024-01-03 16:16:50.084 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                      Finished Execution of Test Method: 'TestPackage.Authorization.login'                                      
+                                           Test Description: 'Login with valid username and password'                                           
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-03 16:16:50.157 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-03 16:16:50.159 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-01-03 16:16:50.160 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-01-03 16:16:50.160 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
