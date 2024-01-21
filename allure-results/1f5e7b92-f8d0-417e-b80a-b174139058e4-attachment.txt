@@ -1,0 +1,154 @@
+[INFO ] 2024-01-21 11:33:31.333 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-21 11:33:31.349 [main] ReportManager - Checking for engine updates...
+[INFO ] 2024-01-21 11:33:31.368 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-01-21 11:33:31.812 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2024-01-21 11:33:31.813 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-01-21 11:33:31.932 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-01-21 11:33:32.325 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-01-21 11:33:32.346 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-01-21 11:33:32.484 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.487 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-01-21 11:33:32.489 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.490 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.490 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.490 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.491 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.491 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.495 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO ] 2024-01-21 11:33:32.503 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+[INFO ] 2024-01-21 11:33:32.504 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.505 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.505 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.505 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.506 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.506 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.507 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.508 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.508 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.508 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.509 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.509 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.509 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.509 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.509 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.510 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.510 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.511 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.511 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.511 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.511 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.512 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.512 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.512 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.512 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.513 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.513 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.513 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.513 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.513 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.514 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.514 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.516 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[INFO ] 2024-01-21 11:33:32.516 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.518 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-01-21 11:33:32.519 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.521 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.522 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.522 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.522 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-21 11:33:32.531 [main] Utils - [TestNG] Running:
+  C:\Users\Hossam.AbdelFattah\AppData\Local\Temp\testng-eclipse-208754935\testng-customsuite.xml
+
+[INFO ] 2024-01-21 11:33:32.568 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-21 11:33:32.667 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-01-21 11:33:32.675 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-01-21 11:33:32.767 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+[INFO ] 2024-01-21 11:33:32.776 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                   'BuildAcceptance.UnderWriterTC.beforeClass'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-21 11:33:32.791 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-01-21 11:33:32.804 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Hossam.AbdelFattah..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-01-21 11:33:32.805 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-01-21 11:33:32.805 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-01-21 11:33:34.679 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-01-21 11:33:34.689 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "simpleJSON.json"".
+[INFO ] 2024-01-21 11:33:34.690 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/simpleJSON.json"".
+[INFO ] 2024-01-21 11:33:34.691 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/simpleJSON.json"".
+[INFO ] 2024-01-21 11:33:34.694 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-01-21 11:33:34.733 [main] ReportManager - Delete all cookies.
+[INFO ] 2024-01-21 11:33:34.746 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                      'BuildAcceptance.UnderWriterTC.setup'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-21 11:33:34.865 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                           Test Method: 'BuildAcceptance.UnderWriterTC.addNewCustomer'                                           
+                       Test Description: 'Underwriter Can Add New Customer Save And Add Another One (Individual &Company)'                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-21 11:33:34.890 [main] ReportManager - Target URL: "https://testportal.eg-insurtech.com/login"
+[INFO ] 2024-01-21 11:33:34.913 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-01-21 11:33:43.994 [main] ReportManager - Navigate to url "https://testportal.eg-insurtech.com/login".
+[INFO ] 2024-01-21 11:33:44.163 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-21 11:33:44.200 [main] ReportManager - Type "producer" into "اسم المستخدم".
+[INFO ] 2024-01-21 11:33:44.297 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-21 11:33:44.334 [main] ReportManager - Type "Asd123@@" into "ادخل كلمة المرور".
+[INFO ] 2024-01-21 11:33:44.549 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-21 11:33:44.578 [main] ReportManager - Click "الدخول".
+[INFO ] 2024-01-21 11:33:44.674 [main] ReportManager - Attempting to getAttribute "hidden" from elementLocator "By.cssSelector: .page-title".
+[INFO ] 2024-01-21 11:33:45.558 [main] ReportManager - Get attribute from "By.cssSelector: .page-title".
+[INFO ] 2024-01-21 11:33:45.558 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2024-01-21 11:33:46.767 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.cssSelector: .page-title'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-01-21 11:33:46.786 [main] ReportManager - Successfully created attachment 'Screenshot - 1705829625964_addNewCustomer_ValidateElementAttribute_passed'
+[INFO ] 2024-01-21 11:33:46.947 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-21 11:33:47.020 [main] ReportManager - Click "Add New".
+[INFO ] 2024-01-21 11:33:47.129 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-21 11:33:47.187 [main] ReportManager - Type "Hussam" into "By.cssSelector: input[data-qa='input-Customer-FullName']".
+[INFO ] 2024-01-21 11:33:47.336 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-21 11:33:47.407 [main] ReportManager - Type "01234018330481" into "By.cssSelector: input[data-qa='input-Customer-MobileNo']".
+[INFO ] 2024-01-21 11:33:47.520 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-21 11:33:47.590 [main] ReportManager - Type "29212060101751818" into "By.cssSelector: input[data-qa='input-Customer-NationalId']".
+[INFO ] 2024-01-21 11:33:47.597 [main] ReportManager - About to zoom out
+[INFO ] 2024-01-21 11:33:47.871 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-21 11:33:48.370 [main] ReportManager - Click "Save".
+[INFO ] 2024-01-21 11:33:51.188 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-21 11:33:51.221 [main] ReportManager - Click "Close".
+[INFO ] 2024-01-21 11:33:51.226 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: addNewCustomer'
+[INFO ] 2024-01-21 11:33:51.227 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                Finished Execution of Test Method: 'BuildAcceptance.UnderWriterTC.addNewCustomer'                                
+                       Test Description: 'Underwriter Can Add New Customer Save And Add Another One (Individual &Company)'                       
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-21 11:33:51.249 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after class configuration method                                             
+                                                   'BuildAcceptance.UnderWriterTC.afterClass'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-21 11:33:51.533 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-01-21 11:33:51.536 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-21 11:33:51.536 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-01-21 11:33:51.537 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-01-21 11:33:51.537 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

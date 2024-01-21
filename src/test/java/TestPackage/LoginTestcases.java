@@ -15,7 +15,7 @@ public class LoginTestcases extends TestClass {
 	CustomerPage customerPage;
 
 	@Test(description = "Verify the sucessfull login using vaild username and password")
-	public void verifySucessfulLogin() {
+	public void verifySucessfulLogin() throws InterruptedException, AWTException {
 
 		loginPage = new LoginPage(driver);
 		sideMenu = new SideMenu(driver);
@@ -24,6 +24,7 @@ public class LoginTestcases extends TestClass {
 
 		loginPage.loginToPortal();
 		customerPage.clickAddCustomerButton();
+		customerPage.fillRequiredFields("asdas", "01063113874", "24117480101843");
 		//sideMenu.clickSideMenuIteam();
 		loginPage.logOut();
 

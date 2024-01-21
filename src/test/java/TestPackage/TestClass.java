@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
 public class TestClass {
-	SHAFT.GUI.WebDriver driver;
+	protected SHAFT.GUI.WebDriver driver;
 	SHAFT.TestData.JSON testData;
 
 	@BeforeClass

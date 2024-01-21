@@ -1,5 +1,6 @@
 package TestPackage;
 import com.shaft.driver.SHAFT;
+import io.qameta.allure.Step;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import net.minidev.json.JSONObject;
@@ -10,6 +11,7 @@ public class Authorization {
 
 
 
+    @Step()
     @Test(description = "Login with valid username and password")
     public void login(){
 
@@ -20,7 +22,7 @@ public class Authorization {
         JSONObject body = new JSONObject();
         body.put("Username", "01120112011");
         body.put("Password", "P@ssw0rd");
-        Response reponse = api.post("/Authenticate/login").setRequestBody(body).setContentType(ContentType.JSON).setTargetStatusCode(200).perform();
+        Response reponse = api.post("/Authenticate/login").setRequestBody(body).setContentType(ContentType.JSON).setTargetStatusCode(200).useRelaxedHTTPSValidation().perform();
         api.assertThatResponse().matchesSchema("JsonSchemes/login.json").perform();
 
 
