@@ -49,7 +49,7 @@ public class CustomerPage {
         // Format: 292120601017XX, where XX is a random 5-digit number
 
         // Fixed part of the national ID
-        String fixedPart = "292120601017";
+        String fixedPart = "292120601";
 
         // Generate a random 5-digit number
         String randomDigits = String.format("%05d", new Random().nextInt(100000));
@@ -62,7 +62,7 @@ public class CustomerPage {
         // Format: 01234018348, where the last 5 digits are random
 
         // Fixed part of the mobile number
-        String fixedPart = "012340183";
+        String fixedPart = "010631";
 
         // Generate a random 5-digit number
         String randomDigits = String.format("%05d", new Random().nextInt(100000));
@@ -82,6 +82,34 @@ public class CustomerPage {
 		zoomIn();
 		driver.element().click(By.cssSelector("button[aria-label='Close']"));
 	}
+	
+	public void editExsitingCustomer() throws AWTException {
+		
+		String mobNumber=generateRandomMobileNumber();
+		String Id=generateRandomNationalID();
+		
+		
+		
+		driver.element().type(By.cssSelector("input[data-qa='input-Customer-MobileNo']"), mobNumber);
+		driver.element().type(By.cssSelector("input[data-qa='input-Customer-NationalId']"), Id);
+		zoomOut();
+		driver.element().click(By.xpath("(//button[@name='save'])[1]"));
+		zoomIn();
+		driver.element().click(By.cssSelector("button[aria-label='Close']"));
+		driver.element().click(By.xpath("//span[@class='text-end' and text()=' Customers ']"));
+		driver.element().type(customerSearch, "Edit User").keyPress(customerSearch, Keys.ENTER);
+		
+
+	}
+	
+	
+	public void clickUpdateCustomer() {
+		driver.element().click(By.cssSelector("#dropdownAction0"));
+		driver.element().click(By.xpath("//a[ @class='dropdown-item' and text()=' Update ']"));
+		
+	}
+	
+	
 	
 	public void searchByNahtionalID() {
 		
@@ -124,10 +152,10 @@ public class CustomerPage {
 		driver.getDriver().navigate().refresh();
 	}
 	
-	public void searchCustomerByName() {
+	public void searchCustomerByName(String name) {
 		
-		driver.element().type(customerSearch, "Kaley").keyPress(customerSearch, Keys.ENTER);
-		driver.element().verifyThat(customerCardName).text().isEqualTo("Kaley").perform();
+		driver.element().type(customerSearch, name).keyPress(customerSearch, Keys.ENTER);
+		driver.element().verifyThat(customerCardName).text().isEqualTo(name).perform();
 		
 	
 		
